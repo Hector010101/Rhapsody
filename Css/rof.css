@@ -136,3 +136,24 @@ article a img:hover{
 #Otros::after{ 
     right: 150px;
 }
+#Album-sencillos{
+    padding-top: 30px;
+    color: white;
+    text-align:center;
+    position: relative;    
+}
+#Album-sencillos::after, #Album-sencillos::before{    
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 1.5em;
+}
+#Album-sencillos::before{
+    left: 50px;
+}
+#Album-sencillos::after{
+    right: 50px;
+}
+
