@@ -1,0 +1,138 @@
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.discografia{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+.banda-rof{
+    color: white;
+    text-align: center;
+}
+.discografia a{
+    color: white;
+    text-decoration: none;
+    margin: 0rem 2rem;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all 500ms;
+}
+.discografia a:hover{
+    color: green;
+}
+.main-img{
+    width: 100%;
+}
+#Album{
+    color: white;
+    text-align:center;
+    position: relative;
+    padding-top: 30px;
+}
+#Album::after, #Album::before{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 1.5em;
+}
+#Album::before{
+    left: 250px;
+}
+#Album::after{
+    right: 250px;
+}
+.container-album{
+    margin-top: 15px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 50px;
+    margin-right: 50px;     
+}
+article a{
+    margin-top: 15px;
+    display: flex;
+    width: 1000px;
+    height: 430px;       
+}
+article a img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.3;
+    transition: 0.9s ease;
+}
+article a img:hover{
+    cursor: crosshair;
+    width: 430px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+#EP{
+    padding-top: 30px;
+    color: white;
+    text-align:center;
+    position: relative;
+}
+#EP::after, #EP::before{
+    
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 1.5em;
+}
+#EP::before{
+    left: 380px;
+}
+#EP::after{ 
+    right: 380px;
+}
+#Sencillo{
+    padding-top: 30px;
+    color: white;
+    text-align:center;
+    position: relative;
+}
+#Sencillo::after, #Sencillo::before{    
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 1.5em;
+}
+#Sencillo::before{
+    left: 315px;
+}
+#Sencillo::after{ 
+    right: 315px;
+}
+#Otros{
+    padding-top: 30px;
+    color: white;
+    text-align:center;
+    position: relative;
+}
+#Otros::after, #Otros::before{    
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    top: 1.5em;
+}
+#Otros::before{
+    left: 150px;
+}
+#Otros::after{ 
+    right: 150px;
+}

@@ -1,0 +1,1264 @@
+html{
+    scroll-behavior:smooth ;
+}
+main{
+    padding: 1px;
+}
+.container-info{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.name-date{
+    margin-top: 50px;
+    text-align: center;
+}
+.name-date h1{
+    font-size: 50px;
+}
+.name-date h3{
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    gap: 5px;
+}
+.box-dvd3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    gap: 5px;    
+}
+ol{
+    font-size: 20px;
+    color: white;
+}
+li{
+    font-size: 16px;
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 500ms;
+}
+.letras-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.letras{
+    text-align: center;
+    width: 60%;
+    border-style:groove;   
+    border-width: 10px;
+    border-color: silver;
+    opacity: 0.3;
+    transition: 500ms all;
+}
+.letras:hover{
+    opacity: 1;
+    background-image: url(/Imagenes/Medieval-fondo.jpg);
+    background-size: cover;
+}
+.letras h1{
+    font-size: 35px;  
+    font-weight: 900;  
+}
+.letras p{
+    font-size: 22px;
+    font-weight: 800;
+}
+.padding{
+    padding-top: 100px;
+}
+.musicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+.line-up{
+    display: flex;
+    justify-content: space-around;
+}
+.musico ,.miembro-de-giras{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    width: 220px;
+}
+.musico h3 , .miembro-de-giras h3{
+    font-size: 16px;
+    text-align: center;
+}
+.foto-grupo{
+    width: 100%;
+}
+.return{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.return a{
+    text-decoration: none;
+    color: white;
+    transition: all 500ms;
+}
+.return a:hover{
+    color: darkred;
+}
+
+
+
+/* ID album */
+#Legendary-Tales{
+    background-image: url(/Imagenes/Rhapsody-Legendary\ tales-full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#legendary-tales{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#legendary-tales-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-legendary-tales{
+    color: orangered;
+}
+#letras-legendary-tales .letras:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#album-1{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#album-1:hover{
+    height: 450px;
+}
+
+#Symphony-Of-Enchanted-Lands{
+    background-image: url(/Imagenes/Rhapsody-Symphony\ of\ enchanted\ lands-full.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center; 
+}
+#symphony-of-enchanted-lands{
+    color: blue;
+    text-shadow: 3px 3px 6px purple;
+}
+#symphony-of-enchanted-lands-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px blue;
+}
+#letras-symphony-of-enchanted-lands{
+    color: blue;
+}
+#letras-symphony-of-enchanted-lands .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px blue;
+    border-color: blue;
+}
+#album-2{
+    height: 400px;
+    border: 5px solid blue;
+    transition: all 500ms;
+}
+#album-2:hover{
+    height: 450px;
+}
+
+#Dawn-Of-Victory{
+    background-image: url(/Imagenes/Rhapsody-Dawn\ of\ Victory-Full.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#dawn-of-victory{
+    color: darkred;
+    text-shadow: 3px 3px 6px orangered;
+}
+#dawn-of-victory-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;
+}
+#letras-dawn-of-victory{
+    color: darkred;
+}
+#letras-dawn-of-victory .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;
+    border-color: darkred;
+}
+#album-3{
+    height: 400px;
+    border: 5px solid darkred;
+    transition: all 500ms;
+}
+#album-3:hover{
+    height: 450px;
+}
+
+#Rain-Of-A-Thousand-Flames{
+    background-image: url(/Imagenes/Rhapsody-Rain\ of\ a\ Thousand\ Flames\ full.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+#rain-of-a-thousand-flames{
+    color:saddlebrown;
+    text-shadow: 3px 3px 6px gray;
+}
+#rain-of-a-thousand-flames-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px saddlebrown;
+}
+#letras-rain-of-a-thousand-flames{
+    color: saddlebrown;
+}
+#letras-rain-of-a-thousand-flames .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px saddlebrown;
+    border-color: saddlebrown;    
+}
+#album-4{
+    height: 400px;
+    border: 5px solid saddlebrown;
+    transition: all 500ms;
+}
+#album-4:hover{
+    height: 450px;    
+}
+
+#Power-Of-The-Dragonflame{
+    background-image: url(/Imagenes/Rhapsody-Power\ of\ the\ dragonflame\ full.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1350px;
+    background-position: center;
+}
+#power-of-the-dragonflame{
+    color: rgb(117, 115, 3);
+    text-shadow: 3px 3px 6px rgb(125, 207, 235);
+}
+#power-of-the-dragonflame-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(117, 115, 3);
+}
+#letras-power-of-the-dragonflame{
+    color: rgb(117, 115, 3);
+}
+#letras-power-of-the-dragonflame .letras:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px rgb(117, 115, 3);
+    border-color: rgb(117, 115, 3);
+}
+#album-5{
+    height: 400px;
+    border: 5px solid rgb(117, 115, 3);
+    transition: all 500ms;
+}
+#album-5:hover{
+    height: 450px;
+}
+
+#Symphony-Of-Enchanted-Lands-II{
+    background-image: url(/Imagenes/Rhapsody-Symphony\ of\ enchanted\ lands-\ II\ full.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#symphony-of-enchanted-lands-II{
+    color: green;
+    text-shadow: 3px 3px 6px cyan;
+}
+#symphony-of-enchanted-lands-II-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px green;
+}
+#letras-symphony-of-enchanted-lands-II{
+    color: green;
+}
+#letras-symphony-of-enchanted-lands-II .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px green;
+    border-color: green;
+}
+#album-6{
+    height: 400px;
+    border: 5px solid green;
+    transition: all 500ms;
+}
+#album-6:hover{
+    height: 450px;
+}
+
+#Triumph-Or-Agony{
+    background-image: url(/Imagenes/Rhapsody-Triumph\ or\ agony\ full.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#triump-or-agony{
+    color: brown;
+    text-shadow: 3px 3px 6px cyan;
+}
+#triump-or-agony-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px brown;
+}
+#letras-triump-or-agony{
+    color: brown;
+}
+#letras-triump-or-agony .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px brown;
+    border-color: brown;
+}
+#album-7{
+    height: 400px;
+    border: 5px solid brown;
+    transition: all 500ms;
+}
+#album-7:hover{
+    height: 450px;
+}
+
+#The-Frozen-Tears-Of-Angels{
+    background-image: url(/Imagenes/Rhapsody-The\ frozen\ tears\ of\ angels\ full.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#the-frozen-tears-of-angels{
+    color: darkblue;
+    text-shadow: 3px 3px 6px darkred;
+}
+#the-frozen-tears-of-angels-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkblue;
+}
+#letras-the-frozen-tears-of-angels{
+    color: darkblue;
+}
+#letras-the-frozen-tears-of-angels .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkblue;
+    border-color: darkblue  ;
+}
+#album-8{
+    height: 400px;
+    border: 5px solid darkblue;
+    transition:  all 500ms;
+}
+#album-8:hover{
+    height: 450px;
+}
+
+#From-Chaos-To-Eternity{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/Imagenes/Rhapsody-From\ chaos\ to\ eternity\ full.png);
+    background-position: center;
+}
+#from-chaos-to-eternity{
+    color: red;
+    text-shadow: 3px 3px 6px lightblue;
+}
+#from-chaos-to-eternity-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px red;
+}
+#letras-from-chaos-to-eternity{
+    color: red;
+}
+#letras-from-chaos-to-eternity .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px red;
+    border-color: red;
+}
+#album-9{
+    height: 400px;
+    border: 5px solid red;
+    transition:  all 500ms;
+}
+#album-9:hover{
+    height: 450px;
+}
+
+#Dark-Wings-Of-Steel{
+    background-image: url(/Imagenes/Rhapsody-Dark\ wings\ of\ steel\ full.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#dark-wings-of-steel{
+    color: black;
+    text-shadow: 3px 3px 6px gray;
+}
+#dark-wings-of-steel-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px gray;
+}
+#letras-dark-wings-of-steel{
+    color: gray;
+}
+#letras-dark-wings-of-steel .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px gray;
+    border-color: black;
+}
+#album-10{
+    height: 400px;
+    border: 5px solid gray;
+    transition: all 500ms;
+}
+#album-10:hover{
+    height: 450px;
+}
+
+#Into-The-Legend{
+    background-image: url(/Imagenes/Rhapsody-Into\ the\ legend\ full.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#into-the-legend{
+    color:white;
+    text-shadow: 3px 3px 6px lightblue;
+}
+#into-the-legend-list a:hover{
+    color: black;
+    text-shadow:  3px 3px 6px lightblue;
+}
+#album-11{
+    height: 400px;
+    border: 5px solid white;
+    transition: all 500ms;
+}
+#letras-into-the-legend{
+    color: white;
+}
+#letras-into-the-legend .letras:hover{
+    color: black;    
+    text-shadow:  3px 3px 6px lightblue;
+    border-color: lightblue;
+}
+#album-11:hover{
+    height: 450px;
+}
+#The-Eighth-Mountain{
+    background-image: url(/Imagenes/Rhapsody-The\ eighth\ mountain\ full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#the-eighth-mountain{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#album-12{
+    height: 400px;
+    border: 5px solid rgb(40, 103, 124);
+    transition: all 500ms;
+}
+#the-eighth-mountain-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-the-eighth-mountain{
+    color: rgb(40, 103, 124);
+}
+#letras-the-eighth-mountain .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#album-12:hover{
+    height: 450px;
+}
+
+#Glory-For-Salvation{
+    background-image: url(/Imagenes/Rhapsody-Glory\ for\ salvation\ full\ 2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#glory-for-salvation{
+    color: blue;
+    text-shadow: 3px 3px 6px orangered;
+}
+#glory-for-salvation-list a:hover{
+    color: black;
+    text-shadow:  3px 3px 5px blue;
+}
+#letras-glory-for-salvation{
+    color: blue;
+}
+#letras-glory-for-salvation .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px blue;
+    border-color: blue;
+}
+#album-13{
+    height: 400px;
+    border:5px solid blue;
+    transition: all 500ms;
+}
+#album-13:hover{
+    height: 450px;
+}
+
+#The-Dark-Secret{
+    background-image: url(/Imagenes/Rhapsody-The\ dark\ secret\ saga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#the-dark-secret{
+    color: black;
+    text-shadow: 3px 3px 6px darkgoldenrod;
+}
+#the-dark-secret-flames-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkgoldenrod;    
+}
+#letras-the-dark-secret{
+    color: darkgoldenrod;
+}
+#letras-the-dark-secret .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkgoldenrod;    
+    border-color: darkgoldenrod;
+}
+#ep-1{
+    height: 400px;
+    border: 5px solid darkgoldenrod;
+    transition: all 500ms;
+}
+#ep-1:hover{
+    height: 450px;
+}
+
+#The-Cold-Embrace-Of-Fear{
+    background-image: url(/Imagenes/Rhapsody-The\ cold\ embrace\ of\ fear.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#the-cold-embrace-of-fear{
+    color:lightsteelblue;
+    text-shadow: 3px 3px 6px lightyellow;
+}
+#the-cold-embrace-of-fear-flames-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(92, 110, 134);
+}
+#ep-2{
+    height: 400px;
+    border: 5px solid rgb(92, 110, 134);
+    transition: all 500ms;
+}
+#letras-the-cold-embrace-of-fear{
+    color: rgb(92, 110, 134);
+}
+#letras-the-cold-embrace-of-fear .letras:hover{
+    color: black;    
+    text-shadow: 3px 3px 6px rgb(92, 110, 134);
+    border-color: rgb(92, 110, 134);
+}
+#ep-2:hover{
+    height: 450px;
+}
+
+#Ill-Be-Your-Hero{
+    background-image: url(/Imagenes/I´ll\ be\ your\ heroe.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ill-be-your-hero{
+    color: mediumblue;
+    text-shadow: 3px 3px 6px maroon;
+}
+#ill-be-your-hero-flames-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px mediumblue;
+}
+#letras-ill-be-your-hero{
+    color: mediumblue;
+}
+#letras-ill-be-your-hero .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px mediumblue;
+    border-color: mediumblue;
+}
+#ep-3{
+    height: 400px;
+    border: 5px solid mediumblue;
+    transition:  all 500ms;
+}
+#ep-3:hover{
+    height: 450px;
+}
+
+#Emerald-Sword{
+    background-image: url(/Imagenes/Rhapsody-Symphony\ of\ enchanted\ lands-full.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#emerald-sword{
+    color: purple;
+    text-shadow: 3px 3px 6px darkblue;
+}
+#emerald-sword-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px purple;
+}
+#letras-emerald-sword{
+    color: purple;
+}
+#letras-emerald-sword .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px purple;
+    border-color: purple;
+}
+#single-1{
+    height: 400px;
+    border: 5px solid purple;
+    transition:  all 500ms;
+}
+#single-1:hover{
+    height: 450px;
+} 
+
+#Holy-Thunderforce{
+    background-image: url(/Imagenes/Rhapsody-Dawn\ of\ Victory-Full.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#holy-thunderforce{
+    color: darkred;
+    text-shadow: 3px 3px 6px orangered;    
+}
+#holy-thunderforce-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;    
+}
+#letras-holy-thunderforce{
+    color: darkred;
+}
+#letras-holy-thunderforce .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;
+    border-color: darkred;
+}
+#single-2{
+    height: 400px;
+    border: 5px solid darkred; 
+    transition: all 500ms;
+}
+#single-2:hover{
+    height: 450px;
+}
+#The-Magic-Of-The-Wizards-Dream{
+    background-image: url(/Imagenes/Rhapsody-Symphony\ of\ enchanted\ lands-\ II\ full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#the-magic-of-the-wizards-dream{
+    color: rgb(70, 29, 3);
+    text-shadow: 3px 3px 6px sandybrown;
+}
+#the-magic-of-the-wizards-dream-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(70, 29, 3);
+}
+#letras-the-magic-of-the-wizards-dream{
+    color: rgb(70, 29, 3);    
+}
+#letras-the-magic-of-the-wizards-dream.letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(70, 29, 3);
+    border-color: rgb(70, 29, 3);
+}
+#single-3{
+    height: 400px;
+    border: 5px solid rgb(70, 29, 3); 
+    transition: all 500ms;
+}
+#single-3:hover{
+    height: 450px;
+}
+
+#A-New-Saga-Begin{
+    background-image: url(/Imagenes/Rhapsody-Triumph\ or\ agony\ full.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#a-new-saga-begin{
+    color: sienna;
+    text-shadow: 3px 3px 6px sandybrown;
+}
+#a-new-saga-begin-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px sienna;
+}
+#letras-a-new-saga-begin{
+    color: sienna;
+}
+#letras-a-new-saga-begin .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px chocolate;
+    border-color: sienna;    
+}
+#single-4{
+    height: 400px;
+    border: 5px solid rgb(184, 121, 66); 
+    transition: all 500ms;
+}
+#single-4:hover{
+    height: 450px;
+}
+
+#Sea-Of-Fate{
+    background-image: url(/Imagenes/Rhapsody-The\ frozen\ tears\ of\ angels\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sea-of-fate{
+    color: black;
+    text-shadow: 3px 3px 6px snow;
+}
+#sea-of-fate-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px snow;}
+#letras-sea-of-fate{
+    color: black;   
+}
+#letras-sea-of-fate .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px snow;
+    border-color: black;
+
+}
+#single-5{
+    height: 400px;
+    border: 5px solid black; 
+    transition: all 500ms;
+}
+#single-5:hover{
+    height: 450px;
+}
+
+#Reign-Of-Terror{
+    background-image: url(/Imagenes/Rhapsody-The\ frozen\ tears\ of\ angels\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+#reign-of-terror{
+    color: midnightblue;
+    text-shadow: 3px 3px 6px orangered;
+}
+#reign-of-terror-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px midnightblue;
+}
+#letras-reign-of-terror{
+    color: midnightblue;
+}
+#letras-reign-of-terror .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px midnightblue;
+    border-color: midnightblue;
+}
+#single-6{
+    height: 400px;
+    border: 5px solid midnightblue; 
+    transition: all 500ms;
+}
+#single-6:hover{
+    height: 450px;
+}
+
+#Aeons-Of-Raging-Darkness{
+    background-image: url(/Imagenes/Rhapsody-From\ chaos\ to\ eternity\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center; 
+}
+#aeons-of-raging-darkness{
+    color: darkred;
+    text-shadow: 3px 3px 6px red;
+}
+#aeons-of-raging-darkness-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;
+}
+#letras-aeons-of-raging-darkness{
+    color: darkred;
+}
+#letras-aeons-of-raging-darkness .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px darkred;
+    border-color: darkred;
+}
+#single-7{
+    height: 400px;
+    border: 5px solid darkred; 
+    transition: all 500ms;
+}
+#single-7:hover{
+    height: 450px;
+}
+
+#Shining-Star{
+    background-image: url(/Imagenes/Rhapsody-Into\ the\ legend\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;     
+}
+#shining-star{
+    color: snow;
+    text-shadow: 3px 3px 6px lightblue;
+}
+#shining-star-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px snow;
+}
+#letras-shining-star{
+    color: snow;
+}
+#letras-shining-star .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px snow;
+    border-color: snow;
+}
+#single-8{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-8:hover{
+    height: 450px;
+}
+
+#Rain-Of-Fury{
+    background-image: url(/Imagenes/Rhapsody-The\ eighth\ mountain\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#rain-of-fury{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#rain-of-fury-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-rain-of-fury{
+    color: rgb(40, 103, 124);
+}
+#letras-rain-of-fury .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-9{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-9:hover{
+    height: 450px;
+}
+
+#Master-Of-Peace{
+    background-image: url(/Imagenes/Rhapsody-The\ eighth\ mountain\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#master-of-peace{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#master-of-peace-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-master-of-peace{
+    color: rgb(40, 103, 124);
+}
+#letras-master-of-peace .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-10{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-10:hover{
+    height: 450px;
+}
+
+#The-Legend-Goes-On{
+    background-image: url(/Imagenes/Rhapsody-The\ eighth\ mountain\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#the-legend-goes-on{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#the-legend-goes-on-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-the-legend-goes-on{
+    color: rgb(40, 103, 124);
+}
+#letras-the-legend-goes-on .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-11{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-11:hover{
+    height: 450px;
+}
+
+#Chains-Of-Destiny{
+    background-image: url(/Imagenes/Rhapsody-Glory\ for\ salvation\ full\ 2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#chains-of-destiny{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#chains-of-destiny-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-chains-of-destiny{
+    color: rgb(40, 103, 124);
+}
+#letras-chains-of-destiny .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-12{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-12:hover{
+    height: 450px;
+}
+
+#Magic-Signs{
+    background-image: url(/Imagenes/Rhapsody-Glory\ for\ salvation\ full\ 2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#magic-signs{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#magic-signs-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-magic-signs{
+    color: rgb(40, 103, 124);
+}
+#letras-magic-signs .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-13{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-13:hover{
+    height: 450px;
+}
+
+#Terial-The-Hawk{
+    background-image: url(/Imagenes/Rhapsody-Glory\ for\ salvation\ full\ 2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#terial-the-hawk{
+    color: rgb(40, 103, 124);
+    text-shadow: 3px 3px 6px snow;
+}
+#terial-the-hawk-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+}
+#letras-terial-the-hawk{
+    color: rgb(40, 103, 124);
+}
+#letras-magic-terial-the-hawk{
+    color: black;
+    text-shadow: 3px 3px 6px rgb(40, 103, 124);
+    border-color: rgb(40, 103, 124);
+}
+#single-14{
+    height: 400px;
+    border: 5px solid snow; 
+    transition: all 500ms;
+}
+#single-14:hover{
+    height: 450px;
+}
+
+#Land-Of-Immortals{
+    background-image: url(/Imagenes/thundercorss\(rhapsody\)-Land\ of\ immortals.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#land-of-immortals{
+    color: orangered;
+    text-shadow: 3px 3px 6px yellow;
+}
+#land-of-immortals-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-land-of-immortals{
+    color: orangered;
+}
+#letras-land-of-immortals .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#demo-1{
+    height: 400px;
+    border: 5px solid orangered; 
+    transition: all 500ms;
+}
+#demo-1:hover{
+    height: 450px;
+}
+
+#Eternal-Glory{
+    background-image: url(/Imagenes/thundercorss\(rhapsody\)-Land\ of\ immortals.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;  
+}
+#eternal-glory{
+    color: orangered;
+    text-shadow: 3px 3px 6px yellow;
+}
+#eternal-glory-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-eternal-glory{
+    color: orangered;
+}
+#letras-eternal-glory .letras:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#demo-2{
+    height: 400px;
+    border: 5px solid orangered; 
+    transition: all 500ms;
+}
+#demo-2:hover{
+    height: 450px;
+}
+
+#Live-In-Canada-2005{
+    background-image: url(/Imagenes/Rhapsody-Live\ in\ Canada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;
+}
+#live-in-canada-2005{
+    color: white;
+}
+#dvd-1{
+    height: 400px;
+    border: 5px solid orangered; 
+    transition: all 500ms;
+}
+#dvd-1:hover{
+    height: 450px;
+}
+
+#Live-From-Chaos-To-Eternity{
+    background-image: url(/Imagenes/Rhapsody-Live\ from\ chaos\ to\ eternity.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;
+}
+#live-from-chaos-to-eternity{
+    color: white;
+}
+#dvd-2{
+    height: 400px;
+    border: 5px solid orangered; 
+    transition: all 500ms;
+}
+#dvd-2:hover{
+    height: 450px;
+}
+
+#Visions-From-The-Enchanted-Lands{
+    background-image: url(/Imagenes/Rhapsody-Visions\ from\ enchanted\ lands.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;
+}
+#visions-from-the-enchanted-lands{
+    color: white;
+}
+#dvd-3{
+    height: 400px;
+    border: 5px solid purple; 
+    transition: all 500ms;
+}
+#dvd-3:hover{
+    height: 450px;
+}
+
+#Tales-From-The-Emerald-Sword-Saga{    
+    background-image: url(/Imagenes/Emerald\ sword\ saga.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+#tales-from-the-emerald-sword-saga{
+    color: white;
+}
+#dvd-4{
+    height: 400px;
+    border: 5px solid maroon; 
+    transition: all 500ms;
+}
+#dvd-4:hover{
+    height: 450px;
+}
+
+#Twilight-Symphony{    
+    background-image: url(/Imagenes/Rhapsody-Twiligth\ symphony.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+#twilight-symphony{
+    color: white;
+}
+#dvd-5{
+    height: 400px;
+    border: 5px solid gray; 
+    transition: all 500ms;
+}
+#dvd-5:hover{
+    height: 450px;
+}
+
+#Legendary-Years{    
+    background-image: url(/Imagenes/Rhapsody-Legendary\ years.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+#legendary-years{
+    color: white;
+}
+#dvd-6{
+    height: 400px;
+    border: 5px solid gray; 
+    transition: all 500ms;
+}
+#dvd-6:hover{
+    height: 450px;
+}
+
+
+
