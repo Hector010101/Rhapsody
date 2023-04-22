@@ -1259,6 +1259,293 @@ li a{
 #dvd-6:hover{
     height: 450px;
 }
+#Ascending-To-Infinity{
+    background-image: url(/Imagenes/Luca\ Turilli\ Rhapsody-Ascending\ to\ infinity\ full.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ascending-to-infinity{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#ascending-to-infinity-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-ascending-to-infinity{
+    color: orangered;
+}
+#letras-ascending-to-infinity .letras:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#album--1{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#album--1:hover{
+    height: 450px;
+}
+
+#Prometheus-Symphonia-Ignis-Divinus{
+    background-image: url(/Imagenes/Luca\ Turilli\ Rhapsody-Prometheus.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#prometheus-symphonia-ignis-divinus{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#prometheus-symphonia-ignis-divinus-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-prometheus-symphonia-ignis-divinus{
+    color: orangered;
+}
+#letras-prometheus-symphonia-ignis-divinus .letras:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#album--2{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#album--2:hover{
+    height: 450px;
+}
+
+#Prometheus{
+    background-image: url(/Imagenes/Rhapsody-Prometheus.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#prometheus{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#prometheus-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo--4{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo--4:hover{
+    height: 450px;
+}
+
+#Dark-Fate-Of-Atlantis{
+    background-image: url(/Imagenes/Rhapsody-Dark\ fate\ of\ atlantis.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#dark-fate-of-atlantis{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#dark-fate-of-atlantis-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo--1{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo--1:hover{
+    height: 450px;
+}
+
+#Il-Cigno-Nero{
+    background-image: url(/Imagenes/Rhapsody-Il\ cigno\ nero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#il-cigno-nero{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#il-cigno-nero-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo--2{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo--2:hover{
+    height: 450px;
+}
+
+#Rosenkreuz{
+    background-image: url(/Imagenes/Rhapsody-Rosenkreuz.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#rosenkreuz{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#rosenkreuz-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo--3{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo--3:hover{
+    height: 450px;
+}
+
+#King-Solomon-And-The-72-Names-Of-God{
+    background-image: url(/Imagenes/Rhapsody-King\ Solomon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#king-solomon-and-the-72-names-of-god{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#king-solomon-and-the-72-names-of-god-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo--5{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo--5:hover{
+    height: 450px;
+}
+
+#Zero-Gravity-Rebirht-And-Evolution{
+    background-image: url(/Imagenes/Rhapsody-Zero\ gravity.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#zero-gravity-rebirht-and-evolution{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}#zero-gravity-rebirht-and-evolution-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#letras-zero-gravity-rebirht-and-evolution{
+    color: orangered;
+}
+#letras-zero-gravity-rebirht-and-evolution .letras:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px orangered;
+    border-color: orangered;
+}
+#album---1{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#album---1:hover{
+    height: 450px;
+}
+
+#Proenix-Rising{
+    background-image: url(/Imagenes/Rhapsody-Phoenix\ rising.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#phoenix-rising{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#phoenix-rising-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo---1{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo---1:hover{
+    height: 450px;
+}
+
+#D-N-A{
+    background-image: url(/Imagenes/Rhapsody-DNA.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#d-n-a{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#d-n-a-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo---2{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo---2:hover{
+    height: 450px;
+}
+
+#Zero-Gravity{
+    background-image: url(/Imagenes/Rhapsody-Zero\ gravity\ single.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#zero-gravity{
+   color: orangered;
+   text-shadow: 3px 3px 6px orange;
+}
+#zero-gravity-list a:hover{
+    color: black;
+    text-shadow: 3px 3px 6px orangered;
+}
+#sencillo---3{
+    height: 400px;
+    border: 5px solid orangered;
+    transition: all 500ms;
+}
+#sencillo---3:hover{
+    height: 450px;
+}
+
 
 
 
